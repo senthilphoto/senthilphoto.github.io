@@ -1,0 +1,69 @@
+:root {
+    --border-color: #333;
+    --primary-bg-color: #fff;
+    --secondary-bg-color: #fff;
+    --primary-text-color: #000;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all .3s linear;
+    border: none;
+    transition: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    min-width: fit-content;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/*styles for the banner*/
+
+.banner {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.banner>* {
+    width: 100%;
+}
+
+/* Text styles */
+
+#senthilkumar {
+    text-align: center;
+    padding: 1rem;
+    font-size: max(5em, 5vw);
+    font-weight: normal;
+    text-align: center;
+}
+
+#copy {
+    font-size: .3em;
+}
+
+.icon {
+    width: 2em;
+}

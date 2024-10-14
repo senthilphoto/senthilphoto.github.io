@@ -1,0 +1,25 @@
+#bg {
+    animation: carousel 30s linear infinite;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100lvh;
+    background-image: url(carousel/WC_29th_May28376.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes carousel {
+    0% {
+        background-image: url(carousel/WC_29th_May28376.jpg);
+    }
+
+    33% {
+        background-image: url(carousel/WC_29th_May29114.jpg);
+    }
+
+    66% {
+        background-image: url(carousel/WC_29th_May29510.jpg);
+    }
+}
