@@ -1,0 +1,17 @@
+@import url("/styles/default.css");
+@import url("/styles/theme.css");
+
+body{
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

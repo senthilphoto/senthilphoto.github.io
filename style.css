@@ -1,28 +1,13 @@
-@import url("/theme.css");
-@import url("/bg-carousel.css");
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    transition: all .3s linear;
-    border: none;
-    transition: none;
-}
-
-*::-webkit-scrollbar {
-    display: none;
-}
+@import url("/styles/default.css");
+@import url("/styles/theme.css");
+@import url("/styles/senthilkumar.css");
+@import url("/styles/bg-carousel.css");
+@import url("/styles/banner.css");
 
 body {
-    width: 100%;
-    min-height: 100vh;
-    min-width: fit-content;
     display: grid;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
 }
 
 a {
@@ -30,37 +15,13 @@ a {
     color: inherit;
 }
 
-/*styles for the banner*/
-
-.banner {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    background-color: #0008;
-    text-align: left;
-    gap: .5em;
-}
-
-.banner>* {
-    width: 100%;
-}
-
-/* Text styles */
-
-#senthilkumar {
-    text-align: center;
-    padding: 1rem;
-    font-size: max(5em, 5vw);
-    font-weight: normal;
-    text-align: left;
-}
-
-#copy {
-    font-size: .3em;
-}
-
 .nav-link {
     font-weight: bold;
     text-decoration: none;
     text-align: right;
+}
+
+.banner {
+    text-align: left;
+    background-color: var(--transparency-color);
 }

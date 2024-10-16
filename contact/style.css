@@ -1,69 +1,24 @@
-:root {
-    --border-color: #333;
-    --primary-bg-color: #fff;
-    --secondary-bg-color: #fff;
-    --primary-text-color: #000;
-    background-color: var(--secondary-bg-color);
-    color: var(--primary-text-color);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    transition: all .3s linear;
-    border: none;
-    transition: none;
-}
-
-*::-webkit-scrollbar {
-    display: none;
-}
+@import url("/styles/default.css");
+@import url("/styles/theme.css");
+@import url("/styles/senthilkumar.css");
+@import url("/styles/banner.css");
 
 body {
-    width: 100%;
-    min-height: 100vh;
-    min-width: fit-content;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
     overflow: scroll;
 }
 
-a {
-    text-decoration: underline;
-    color: inherit;
+.icon {
+    background-color: #fff;
+    padding: .25em;
+    border-radius: .5em;
+    width: 3em;
 }
-
-/*styles for the banner*/
-
-.banner {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1em;
-}
-
-.banner>* {
-    width: 100%;
-}
-
-/* Text styles */
 
 #senthilkumar {
     text-align: center;
-    padding: 1rem;
-    font-size: max(5em, 5vw);
-    font-weight: normal;
-    text-align: center;
-}
-
-#copy {
-    font-size: .3em;
-}
-
-.icon {
-    width: 2em;
 }

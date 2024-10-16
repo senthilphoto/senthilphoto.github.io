@@ -1,0 +1,11 @@
+#senthilkumar {
+    line-height: 100%;
+    text-align: left;
+    padding: 1rem;
+    font-size: max(5em, 5vw);
+    font-weight: normal;
+}
+
+#copy {
+    font-size: .3em;
+}

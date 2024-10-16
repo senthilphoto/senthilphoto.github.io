@@ -1,39 +1,17 @@
-:root {
-    --border-color: #333;
-    --primary-bg-color: #fff;
-    --secondary-bg-color: #fff;
-    --primary-text-color: #000;
-    background-color: var(--secondary-bg-color);
-    color: var(--primary-text-color);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    transition: all .3s linear;
-    border: none;
-    transition: none;
-}
-
-*::-webkit-scrollbar {
-    display: none;
-}
+@import url("/styles/default.css");
+@import url("/styles/theme.css");
+@import url("/styles/senthilkumar.css");
 
 body {
-    width: 100%;
-    min-width: fit-content;
-    min-height: 100vh;
     padding: 5em;
+    gap: 3em;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: fit-content auto;
+    grid-template-columns: auto auto;
     grid-template-areas:
         "title photo"
         "text photo";
-    align-items: top;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
     text-align: left;
 }
 
@@ -47,24 +25,13 @@ a {
 }
 
 #text {
+    padding: 1em;
     grid-area: text;
-}
-
-#senthilkumar {
-    font-weight: normal;
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    text-align: left;
-}
-
-#copy {
-    font-size: .3em;
 }
 
 img {
     grid-area: photo;
-    max-width: 100%;
-    max-height: calc(100vh - 10em);
+    height: calc(100vh - 10em);
 }
 
 @media (max-width: 1280px) {
@@ -76,6 +43,12 @@ img {
         justify-items: center;
         grid-template-columns: 100%;
         gap: 2em;
+        padding: 0;
         text-align: left;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
     }
 }

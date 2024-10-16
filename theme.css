@@ -1,8 +1,0 @@
-:root {
-    --border-color: #333;
-    --primary-bg-color: #000;
-    --secondary-bg-color: #111;
-    --primary-text-color: #fff;
-    background-color: var(--secondary-bg-color);
-    color: var(--primary-text-color);
-}

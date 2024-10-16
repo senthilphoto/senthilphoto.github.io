@@ -1,0 +1,17 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #000;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+    --transparency-color: #fff8;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #111;
+        --text-color: #fff;
+        --transparency-color: #0008;
+    }
+}

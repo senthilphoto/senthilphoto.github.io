@@ -1,0 +1,11 @@
+.banner {
+    padding: 1em;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner>* {
+    width: 100%;
+}
