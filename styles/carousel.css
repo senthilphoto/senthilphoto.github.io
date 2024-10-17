@@ -1,0 +1,13 @@
+@keyframes carousel {
+    0% {
+        background-image: url(/gallery/photos/Apriliasxr160_1_copy.jpg);
+    }
+
+    33% {
+        background-image: url(/gallery/photos/Hutch_.jpg);
+    }
+
+    66% {
+        background-image: url(/gallery/photos/Abaran_1_copy_2.jpg);
+    }
+}

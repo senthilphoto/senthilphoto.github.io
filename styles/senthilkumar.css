@@ -2,7 +2,7 @@
     line-height: 100%;
     text-align: left;
     padding: 1rem;
-    font-size: max(5em, 5vw);
+    font-size: max(3em, 3vmax);
     font-weight: normal;
 }
 

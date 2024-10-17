@@ -1,8 +1,20 @@
 @import url("/styles/default.css");
 @import url("/styles/theme.css");
 @import url("/styles/senthilkumar.css");
-@import url("/styles/bg-carousel.css");
+@import url("/styles/carousel.css");
 @import url("/styles/banner.css");
+
+#bg {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100lvh;
+    background-image: url(/gallery/photos/1040.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: carousel 30s linear infinite;
+}
 
 body {
     display: grid;
